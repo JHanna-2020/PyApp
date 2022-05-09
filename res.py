@@ -18,7 +18,7 @@ def resHymns():
             aLabel = Label(res, text="\nAudio")
             aLabel.pack();
             song_list = Listbox(res, bg="#e9e9e9", width=60, borderwidth=0, height=5)
-            song1 = "/Users/John/PycharmProjects/Coptic/audio/Khristos Anesti Oliver and Jan Youssef .mp3"
+            song1 = "/Users/John/PycharmProjects/Coptic/audio/Khristos Anesti Oliver and Jan Youssef.mp3"
             song1 = song1.replace("/Users/John/PycharmProjects/Coptic/audio/", "")
             song1 = song1.replace(".mp3", "")
             song2 = "/Users/John/PycharmProjects/Coptic/audio/Khristos Anesty Ibrahim Ayad.mp3"
