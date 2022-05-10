@@ -11,8 +11,9 @@ import TS
 import PR
 import KAG
 import ONN
-import AYH
-import CIRShort
+# import AYH
+# import CIRShort
+import TLI
 root = Tk()
 
 
@@ -24,7 +25,7 @@ englishFont = Font(family="Helvetica", size=15)
 
 season = Label(root, text="Reserrection", fg="blue")
 root.title("Coptic Hymns")
-root.iconbitmap("/Users/John/Documents/PyApp/icon.ico")
+# root.iconbitmap("/Users/John/Documents/PyApp/icon.ico")
 root.geometry("1000x1000")
 season.grid(row=0, column=0)
 var = 0
@@ -36,7 +37,8 @@ ressurection4 = Button(root, text="`W nim nai", font=copticFont, bg="black", fg=
 ressurection5 = Button(root, text="Ni,oroc tyrou", font=copticFont, bg="black", fg="white", command=lambda: [AYH.AllYouHeavenly()])
 ressurection6 = Button(root, text="`<rictoc `anecty (2)", font=copticFont, bg="black", fg="white", command=lambda: [CIRShort.KA()])
 ressurection7 = Button(root, text="`<rictoc `anecty", font=copticFont, bg="black", fg="white", command=lambda: [CIR.KA()])
-ressurection8 = Button(root, text="Ton cunanar,on ", font=copticFont, bg="black", fg="white", command=lambda: [TS.tonSeena()])
+ressurection8 = Button(root, text="Ton cunanar,on", font=copticFont, bg="black", fg="white", command=lambda: [TS.tonSeena()])
+ressurection9 = Button(root, text="`Tou li;ouc", font=copticFont, bg="black", fg="white", command=lambda: [TLI.TOL()])
 
 lineBreak = Label(text="\n")
 
@@ -82,6 +84,10 @@ img8Label = Label(image=myImg1)
 img8Label.grid(row=4, column=2)
 ressurection8.grid(row=5, column=2)
 
+myImg9 = ImageTk.PhotoImage(Image.open("Imgs/resImg.jpeg"))
+img9Label = Label(image=myImg1)
+img9Label.grid(row=4, column=3)
+ressurection9.grid(row=5, column=3)
 root.mainloop()
 
 
