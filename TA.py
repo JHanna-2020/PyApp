@@ -20,9 +20,7 @@ def teenAnastaseen():
             song1 = "/Volumes/My Passport/Programming/Python/PyApp/audio/Teen Anastaseen Ibrahim Ayad.mp3"
             song1 = song1.replace("/Volumes/My Passport/Programming/Python/PyApp/audio/", "")
             song1 = song1.replace(".mp3", "")
-            song2 = "/Volumes/My Passport/Programming/Python/PyApp/audio/Teen Anastaseen St.Mark JC Deacons.mp3"
-            song2 = song2.replace("/Volumes/My Passport/Programming/Python/PyApp/audio/", "")
-            song2 = song2.replace(".mp3", "")
+
 
             def song_length():
                 current_time = pygame.mixer.music.get_pos()/1000
@@ -88,7 +86,6 @@ def teenAnastaseen():
                 song_list.selection_set(next_one, last=None)
 
             song_list.insert(END, song1)
-            song_list.insert(END, song2)
             song_list.pack()
             backBtn = Button(res, text="⏪", borderwidth=0, command=previous_song)
             playBtn = Button(res, text="▶️", borderwidth=0, command=play)

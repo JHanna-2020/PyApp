@@ -17,10 +17,10 @@ def TOL():
             aLabel = Label(res, text="\nAudio")
             aLabel.pack();
             song_list = Listbox(res, bg="#e9e9e9", width=60, borderwidth=0, height=5)
-            song1 = "/Volumes/My Passport/Programming/Python/PyApp/audio/To Lithos Ibrahim Ayad.mp3"
+            song1 = "/Volumes/My Passport/Programming/Python/PyApp/audio/Tolithos Ibrahim Ayad.mp3"
             song1 = song1.replace("/Volumes/My Passport/Programming/Python/PyApp/audio/", "")
             song1 = song1.replace(".mp3", "")
-            song2 = "/Volumes/My Passport/Programming/Python/PyApp/audio/To Lithos St.Mark JC Deacons.mp3"
+            song2 = "/Volumes/My Passport/Programming/Python/PyApp/audio/Tolithos St Mark JC Deacons.mp3"
             song2 = song2.replace("/Volumes/My Passport/Programming/Python/PyApp/audio/", "")
             song2 = song2.replace(".mp3", "")
 
