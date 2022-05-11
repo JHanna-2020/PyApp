@@ -12,8 +12,8 @@ import TS
 import PR
 import KAG
 import ONN
-# import AYH
-# import CIRShort
+import AYH
+import CIRShort
 import TLI
 import TA
 root = Tk()
