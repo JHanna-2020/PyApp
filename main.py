@@ -100,4 +100,3 @@ ressurection10.grid(row=5, column=4)
 
 root.mainloop()
 
-
